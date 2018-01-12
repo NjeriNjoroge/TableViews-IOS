@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		651076E72008B73D0045B5D6 /* emoji.png in Resources */ = {isa = PBXBuildFile; fileRef = 651076E62008B73D0045B5D6 /* emoji.png */; };
 		6578C36F20089EC000F0B212 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6578C36E20089EC000F0B212 /* AppDelegate.swift */; };
 		6578C37420089EC000F0B212 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6578C37220089EC000F0B212 /* Main.storyboard */; };
-		6578C37620089EC000F0B212 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6578C37520089EC000F0B212 /* Assets.xcassets */; };
 		6578C37920089EC000F0B212 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6578C37720089EC000F0B212 /* LaunchScreen.storyboard */; };
 		6578C38420089EC000F0B212 /* TableExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6578C38320089EC000F0B212 /* TableExampleTests.swift */; };
 		6578C38F20089EC000F0B212 /* TableExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6578C38E20089EC000F0B212 /* TableExampleUITests.swift */; };
@@ -34,10 +34,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		651076E62008B73D0045B5D6 /* emoji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = emoji.png; path = ../../../Downloads/emoji.png; sourceTree = "<group>"; };
 		6578C36B20089EC000F0B212 /* TableExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6578C36E20089EC000F0B212 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6578C37320089EC000F0B212 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6578C37520089EC000F0B212 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6578C37820089EC000F0B212 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6578C37A20089EC000F0B212 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6578C37F20089EC000F0B212 /* TableExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -97,9 +97,9 @@
 		6578C36D20089EC000F0B212 /* TableExample */ = {
 			isa = PBXGroup;
 			children = (
+				651076E62008B73D0045B5D6 /* emoji.png */,
 				6578C36E20089EC000F0B212 /* AppDelegate.swift */,
 				6578C37220089EC000F0B212 /* Main.storyboard */,
-				6578C37520089EC000F0B212 /* Assets.xcassets */,
 				6578C37720089EC000F0B212 /* LaunchScreen.storyboard */,
 				6578C37A20089EC000F0B212 /* Info.plist */,
 				6578C3A02008A73F00F0B212 /* FruitsTableViewController.swift */,
@@ -233,8 +233,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6578C37920089EC000F0B212 /* LaunchScreen.storyboard in Resources */,
-				6578C37620089EC000F0B212 /* Assets.xcassets in Resources */,
 				6578C37420089EC000F0B212 /* Main.storyboard in Resources */,
+				651076E72008B73D0045B5D6 /* emoji.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
